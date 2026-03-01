@@ -1,4 +1,23 @@
+body {
+    background-color: darkgreen;
+    color: lightgreen;
+}
+
+nav {
+    background-color: darkolivegreen;
+    color: white;
+}
+
 footer {
     background-color: black;
     color: white;
+}
+
+#navLogo {
+    width: 300px;
+    height: 150px;
+}
+
+#companyName {
+    padding-top: 30px;
 }
