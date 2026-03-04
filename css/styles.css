@@ -21,3 +21,15 @@ footer {
 #companyName {
     padding-top: 30px;
 }
+
+#companyNameDiv {
+    border: 5px solid black;
+    border-radius: 20px;
+    width: 50%;
+}
+
+#companyDescription {
+    margin-top: 25px;
+    border: 2px solid black;
+    width: 80%;
+}
