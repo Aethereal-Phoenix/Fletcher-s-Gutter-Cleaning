@@ -46,11 +46,14 @@ footer {
     border: 5px solid black;
     border-radius: 20px;
     width: 50%;
+    background: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
 }
 
-#companyDescription {
+#companyDescriptionDiv {
     margin-top: 25px;
     border: 2px solid black;
+    border-radius: 20px;
     width: 80%;
-    background: rgba(0, 0, 0, 0.5)
+    background: rgba(0, 0, 0, 0.5);
 }
