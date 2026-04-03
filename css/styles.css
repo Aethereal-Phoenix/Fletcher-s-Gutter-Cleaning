@@ -1,6 +1,26 @@
 body {
-    background-color: darkgreen;
+    position: relative;
+    margin: 0;
     color: lightgreen;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+
+    background:
+        linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+        url("../images/background-placeholder.png");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    filter: blur(8px);
+    transform: scale(1.05);
+
+    z-index: -1;
 }
 
 nav {
@@ -19,7 +39,7 @@ footer {
 }
 
 #companyName {
-    padding-top: 30px;
+    padding-top: 0px;
 }
 
 #companyNameDiv {
@@ -32,4 +52,5 @@ footer {
     margin-top: 25px;
     border: 2px solid black;
     width: 80%;
+    background: rgba(0, 0, 0, 0.5)
 }
