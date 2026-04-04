@@ -58,3 +58,7 @@ footer {
     width: 80%;
     background: rgba(0, 0, 0, 0.5);
 }
+
+#carouselDiv {
+    color: black;
+}

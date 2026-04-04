@@ -1,16 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="js/bootstrap.min.js">
-    <link rel="stylesheet" href="css/styles.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Home</title>
-</head>
+  </head>
 
-<body class="d-flex flex-column min-vh-100">
+  <body class="d-flex flex-column min-vh-100">
     <!--<nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"><img id="navLogo" src="images/logo-placeholder.png" alt="Placeholder image"></a>
@@ -44,16 +43,135 @@
             </div>
         </div>
     </nav>-->
-<main class="flex-fill">
-    <div id="companyNameDiv" class="container text-center">
+    <main class="flex-fill">
+      <div id="companyNameDiv" class="container text-center">
         <h1 id="companyName">Fletcher's Gutter Cleaning</h1>
-    </div>
-    <div id="companyDescriptionDiv" class="container">
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo temporibus rerum quis laudantium! Mollitia dolorum doloremque unde consequatur maiores itaque. Molestiae amet, ad dolorum id, facere repudiandae ex cum enim quibusdam dignissimos ipsa, earum explicabo. Autem, explicabo voluptas. Odit repudiandae odio cupiditate a quam nulla aliquid sit architecto repellat libero reprehenderit aperiam magnam omnis nemo, deleniti cum eius excepturi iusto magni. Harum ad nihil quia minus, eaque sint eveniet rem architecto dolore. Corporis quidem, sequi ullam neque iusto voluptates, atque cumque porro amet velit, corrupti eius! Impedit velit sapiente unde ea tenetur sed laborum quam officiis, eos quis, commodi ex quod doloribus non iusto odit ipsam illo dignissimos laudantium ducimus pariatur optio dolorem officia id? Quisquam rem repellendus corrupti libero nam veniam ipsam iusto expedita pariatur odio. Ad nemo ab et natus alias dolorum, corrupti tempore hic, ducimus delectus minus, laudantium error! Incidunt sit odit accusamus ipsum corrupti asperiores accusantium quas necessitatibus illum deserunt expedita, officia optio, laudantium soluta. Deserunt corrupti itaque et tenetur, autem explicabo optio accusamus, labore nulla mollitia praesentium aliquam asperiores vel, in quasi inventore incidunt eaque id cupiditate atque voluptate soluta laborum. Fuga, tenetur necessitatibus. Minima, ipsa quisquam. Debitis voluptatem amet unde, vel alias cumque quidem, doloremque ad, fuga cupiditate commodi pariatur? Culpa voluptatem laborum nihil necessitatibus consequatur, ab odio vero obcaecati, cupiditate facere doloribus ea. A hic ipsum consequatur commodi nam nobis odio culpa placeat nihil voluptatibus nulla eveniet fugiat adipisci, autem asperiores quos quis molestiae beatae vel vitae, quas explicabo iste iure exercitationem. Saepe.</p>    
-    </div>
-</main>
-<footer class="text-center">
-    <p>Fleter's Gutter Cleaning, LLC &copy; <a href="mailto:someone@example.com">Email Me</a> <a href="call:+14175365867">Call Me</a></p>
-</footer>
-</body>
+      </div>
+      <div id="companyDescriptionDiv" class="container">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+          temporibus rerum quis laudantium! Mollitia dolorum doloremque unde
+          consequatur maiores itaque. Molestiae amet, ad dolorum id, facere
+          repudiandae ex cum enim quibusdam dignissimos ipsa, earum explicabo.
+          Autem, explicabo voluptas. Odit repudiandae odio cupiditate a quam
+          nulla aliquid sit architecto repellat libero reprehenderit aperiam
+          magnam omnis nemo, deleniti cum eius excepturi iusto magni. Harum ad
+          nihil quia minus, eaque sint eveniet rem architecto dolore. Corporis
+          quidem, sequi ullam neque iusto voluptates, atque cumque porro amet
+          velit, corrupti eius! Impedit velit sapiente unde ea tenetur sed
+          laborum quam officiis, eos quis, commodi ex quod doloribus non iusto
+          odit ipsam illo dignissimos laudantium ducimus pariatur optio dolorem
+          officia id? Quisquam rem repellendus corrupti libero nam veniam ipsam
+          iusto expedita pariatur odio. Ad nemo ab et natus alias dolorum,
+          corrupti tempore hic, ducimus delectus minus, laudantium error!
+          Incidunt sit odit accusamus ipsum corrupti asperiores accusantium quas
+          necessitatibus illum deserunt expedita, officia optio, laudantium
+          soluta. Deserunt corrupti itaque et tenetur, autem explicabo optio
+          accusamus, labore nulla mollitia praesentium aliquam asperiores vel,
+          in quasi inventore incidunt eaque id cupiditate atque voluptate soluta
+          laborum. Fuga, tenetur necessitatibus. Minima, ipsa quisquam. Debitis
+          voluptatem amet unde, vel alias cumque quidem, doloremque ad, fuga
+          cupiditate commodi pariatur? Culpa voluptatem laborum nihil
+          necessitatibus consequatur, ab odio vero obcaecati, cupiditate facere
+          doloribus ea. A hic ipsum consequatur commodi nam nobis odio culpa
+          placeat nihil voluptatibus nulla eveniet fugiat adipisci, autem
+          asperiores quos quis molestiae beatae vel vitae, quas explicabo iste
+          iure exercitationem. Saepe.
+        </p>
+      </div>
+
+      <div class="container" id="carouselDiv">
+        <div id="carouselExampleCaptions" class="carousel slide">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleCaptions"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img
+                src="images/placeholder_van_img.png"
+                class="d-block w-50 mx-auto"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>First slide label</h5>
+                <p>
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/placeholder_scoop_img.png"
+                class="d-block w-50 mx-auto"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Second slide label</h5>
+                <p>
+                  Some representative placeholder content for the second slide.
+                </p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img
+                src="images/placeholder_spray_img.png"
+                class="d-block w-50 mx-auto"
+                alt="..."
+              />
+              <div class="carousel-caption d-none d-md-block">
+                <h5>Third slide label</h5>
+                <p>
+                  Some representative placeholder content for the third slide.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </main>
+    <footer class="text-center">
+      <p>
+        Fleter's Gutter Cleaning, LLC &copy;
+        <a href="mailto:someone@example.com">Email Me</a>
+        <a href="call:+14175365867">Call Me</a>
+      </p>
+    </footer>
+  </body>
 </html>
